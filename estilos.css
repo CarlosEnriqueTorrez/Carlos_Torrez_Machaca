@@ -1,0 +1,130 @@
+html {
+  font-size: 25px;
+  background-color: black;
+}
+body {
+  background-color: black;
+  padding: 50px;
+  font-family: Comic Sans MS;
+  color: white;
+}
+.contenedor{
+  width: 100%;
+  max-width: 1000px;
+  overflow: hidden;
+}
+h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+
+  margin: 0;
+  padding: 20px 0;
+  color: orangered;
+  text-shadow: 4px 4px 2px gold;
+}
+nav{
+  font-size: 15px;
+  margin: 10px 100px 10px 100px;
+}
+nav li{
+  display: inline-block;
+  list-style: none;
+}
+nav a{
+  text-transform: uppercase;
+  font-family: Cambria;
+  text-decoration: none;
+  float: left;
+  padding: 15px;
+  background-color: #03285f;
+  color: #ffffff;
+}
+nav a:hover {
+  background-color: #ffffff;
+  margin-top: -2;
+  padding-bottom: 10px;
+  color: #000000;
+}
+
+.cam {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  color: gold;
+}
+img,
+video {
+  display: block;
+  margin: 0 auto;
+}
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+
+form {
+  padding: 1em;
+  background: gray;
+  border: 1px solid #c1c1c1;
+  margin-top: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+form input {
+  margin-bottom: 1rem;
+  background: #fff;
+  border: 1px solid #9c9c9c;
+}
+form button {
+  background: lightgrey;
+  padding: 0.7em;
+  border: 0;
+}
+form button:hover {
+  background: gold;
+}
+
+label {
+  text-align: right;
+  display: block;
+  padding: 0.5em 1.5em 0.5em 0;
+}
+
+input {
+  width: 100%;
+  padding: 0.7em;
+  margin-bottom: 0.5rem;
+}
+input:focus {
+  outline: 3px solid gold;
+}
+
+@media (min-width: 550px) {
+  form {
+    overflow: hidden;
+  }
+
+  label {
+    float: left;
+    width: 200px;
+  }
+
+  input {
+    float: left;
+    width: calc(100% - 200px);
+  }
+
+  button {
+    float: right;
+    width: calc(100% - 200px);
+  }
+}
